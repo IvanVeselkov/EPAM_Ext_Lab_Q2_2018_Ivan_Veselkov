@@ -1,0 +1,38 @@
+﻿@model Laba_1.Models.TResulte
+
+
+@{
+    ViewBag.Title = "Calc";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<form action="~/Calculator/Result">
+    <div>
+        <h2>MyCalculator</h2>
+
+
+        <h4> x </h4>
+        <input type="text" id="arg1" name="arg1" value="@Model.arg1"  />
+        <h4> y </h4>
+        <input type="text" id="arg2" name="arg2" value=" @Model.arg2" />
+        <h4> result  <span>@Model.result</span> </h4>
+
+
+        <p><input name="math" type="radio" value="+" checked>+</p>
+        <p><input name="math" type="radio" value="*">*</p>
+        <p><input name="math" type="radio" value="/" >/</p>
+        <p><input name="math" type="radio" value="-">-</p>
+
+
+
+
+        <button name="butt">Calc</button>
+
+        <div class="blocl1">
+            @Model.story
+            
+        </div>
+    </div>
+</form>
+
