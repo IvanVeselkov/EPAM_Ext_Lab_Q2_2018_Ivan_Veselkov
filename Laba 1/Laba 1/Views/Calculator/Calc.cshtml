@@ -13,7 +13,7 @@
 
 
         <h4> x </h4>
-        <input type="text" id="arg1" name="arg1" value="@Model.arg1"  />
+        <input type="text" id="arg1" name="arg1" value="@Model.arg1" />
         <h4> y </h4>
         <input type="text" id="arg2" name="arg2" value=" @Model.arg2" />
         <h4> result  <span>@Model.result</span> </h4>
@@ -21,7 +21,7 @@
 
         <p><input name="math" type="radio" value="+" checked>+</p>
         <p><input name="math" type="radio" value="*">*</p>
-        <p><input name="math" type="radio" value="/" >/</p>
+        <p><input name="math" type="radio" value="/">/</p>
         <p><input name="math" type="radio" value="-">-</p>
 
 
@@ -29,10 +29,10 @@
 
         <button name="butt">Calc</button>
 
-        <div class="blocl1">
-            @Model.story
-            
-        </div>
+       
+        <p><b>LOG:</b></p>
+        <p><textarea rows="10" cols="45" name="text">@Model.story</textarea></p>
+        
     </div>
 </form>
 
