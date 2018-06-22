@@ -13,19 +13,8 @@ namespace Laba_1.Models
 
         public string math { get; set; }
         public string result { get; set; }
-        public string story { get; set; }
         public  List<string> Story { get; set; } = new List<string>();
         public string time { get; set; }
-
-        /*public static List<MvcHtmlString> GetLog(this HtmlHelper html)
-        {
-            List<MvcHtmlString> logToOut = new List<MvcHtmlString>();
-            foreach (var log in Story)
-            {
-                logToOut.Add(new MvcHtmlString(log));
-            }
-            return logToOut;
-        }//*/
     }
 
 }

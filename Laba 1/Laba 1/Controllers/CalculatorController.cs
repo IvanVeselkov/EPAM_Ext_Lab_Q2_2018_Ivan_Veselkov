@@ -44,17 +44,17 @@ namespace Laba_1.Controllers
             switch (math)
             {
                 case "+":
-                    result = (a + b).ToString();
+                    result = (Sum(a,b)).ToString();
                     break;
                 case "-":
-                    result = (a - b).ToString();
+                    result = (Sub(a,b)).ToString();
                     break;
                 case "*":
-                    result = (a * b).ToString();
+                    result = (Prod(a,b)).ToString();
                     break;
                 case "/":
                     if (b != 0)
-                        result = (a / b).ToString();
+                        result = (Div(a,b)).ToString();
                     else
                         result = "exception division by zero";
                     break;
@@ -67,5 +67,21 @@ namespace Laba_1.Controllers
             return View("Calc",vdata);
         }//*/
 
+        decimal Sum(decimal x,decimal y)
+        {
+            return x + y;
+        }
+        decimal Prod(decimal x, decimal y)
+        {
+            return x * y;
+        }
+        decimal Div(decimal x, decimal y)
+        {
+            return x / y;
+        }
+        decimal Sub(decimal x, decimal y)
+        {
+            return x -y;
+        }
     }
 }
