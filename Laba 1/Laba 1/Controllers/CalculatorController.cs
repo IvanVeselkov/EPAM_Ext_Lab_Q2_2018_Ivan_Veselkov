@@ -8,7 +8,7 @@ namespace Laba_1.Controllers
 {
     public class CalculatorController : Controller
     {
-        public string story;
+        
         // GET: Calculator
         
 
@@ -63,7 +63,7 @@ namespace Laba_1.Controllers
             vdata.time = loctime.ToString();
             
             vdata.result = result;
-            vdata.story = vdata.story + "\n" + vdata.time + " ->::   " + vdata.arg1 + vdata.math + vdata.arg2 + "=" + vdata.result;
+            vdata.Story.Add("\n" + vdata.time + " ->::   " + vdata.arg1 + vdata.math + vdata.arg2 + "=" + vdata.result);
             return View("Calc",vdata);
         }//*/
 

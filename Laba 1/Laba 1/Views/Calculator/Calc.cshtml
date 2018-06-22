@@ -31,7 +31,12 @@
 
        
         <p><b>LOG:</b></p>
-        <p><textarea rows="10" cols="45" name="text">@Model.story</textarea></p>
+        <p><textarea rows="10" cols="45" name="text">
+        @foreach (var s in @Model.Story)
+        {
+            Output.Write(s);
+        }
+        </textarea></p>
         
     </div>
 </form>
