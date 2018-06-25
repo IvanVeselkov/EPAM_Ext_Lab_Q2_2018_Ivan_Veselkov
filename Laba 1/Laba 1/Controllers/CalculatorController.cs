@@ -38,12 +38,12 @@ namespace Laba_1.Controllers
             decimal b = 0;
             string result = "";
             if (!decimal.TryParse(arg1, out a) || !decimal.TryParse(arg2, out b))
-                result = "Incorrect arguments";
+                result = "Incorrect arguments";//todo pn вынести в ресурсы (.resx)
 
 
-            switch (math)
+			switch (math)
             {
-                case "+":
+                case "+"://todo pn hardcode. нужно вынести в структуру какую-нибудь. Enum, например.
                     result = (Sum(a,b)).ToString();
                     break;
                 case "-":
@@ -56,7 +56,7 @@ namespace Laba_1.Controllers
                     if (b != 0)
                         result = (Div(a,b)).ToString();
                     else
-                        result = "exception division by zero";
+                        result = "exception division by zero";//todo pn вынести в ресурсы (.resx)
                     break;
             }
             DateTime loctime = DateTime.Now;
@@ -73,8 +73,8 @@ namespace Laba_1.Controllers
         }
         decimal Prod(decimal x, decimal y)
         {
-            return x * y;
-        }
+            return x * y;//todo pn необработанное исключение: Value was either too large or too small for a Decimal. при достаточно больших значениях переменных.
+		}
         decimal Div(decimal x, decimal y)
         {
             return x / y;
