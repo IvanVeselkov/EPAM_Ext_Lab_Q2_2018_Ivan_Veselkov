@@ -37,8 +37,8 @@ namespace _31
             }
             catch
             {
-                Console.WriteLine("Wrong Input");
-                this.InputTask();
+                Console.WriteLine("Wrong Input");//todo pn хардкод
+				this.InputTask();
             }
          }
 
@@ -56,8 +56,8 @@ namespace _31
                 switch (index)
                 {
                     case 1:
-                        Console.WriteLine("Task 1");
-                        Square Rec = new Square();
+                        Console.WriteLine("Task 1");//todo pn хардкод и ниже
+						Square Rec = new Square();
                         Rec.solutionSQ();
                         P.InputTask();
                         break;

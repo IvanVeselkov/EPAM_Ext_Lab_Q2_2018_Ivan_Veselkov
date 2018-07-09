@@ -10,8 +10,8 @@ namespace _31.classes
 /// </summary>
     class EvenMS
     {
-        public const int N = 10;
-        public int[,] mass = new int[N, N];
+        public const int N = 10;//todo pn хардкод
+		public int[,] mass = new int[N, N];
 
         public EvenMS()
         {
@@ -20,8 +20,8 @@ namespace _31.classes
             {
                 for (int j = 0; j < N; j++)
                 {
-                    mass[i,j] = rnd.Next(-100, 100);
-                }
+                    mass[i,j] = rnd.Next(-100, 100);//todo pn хардкод
+				}
             }
         }
 

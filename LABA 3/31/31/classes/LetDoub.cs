@@ -31,7 +31,7 @@ namespace _31.classes
                     final += ch;
                     final += ch;
                 }
-            Console.WriteLine("Результат = {0}", final);
-        }
+            Console.WriteLine("Результат = {0}", final);//todo pn хардкод
+		}
     }
 }

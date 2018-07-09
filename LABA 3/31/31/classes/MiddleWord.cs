@@ -26,9 +26,9 @@ namespace _31.classes
         public void SolutionMW()
         {
             //DelPunk();
-            string[] words = text.Split(new[] { ' ', ',', '.', ';', ':', '<', '>', '/', '!', '"', '\'', '(', ')', '*', '?', '^', '%', '$', '#', '@', '~', '\\' }, StringSplitOptions.RemoveEmptyEntries);
+            string[] words = text.Split(new[] { ' ', ',', '.', ';', ':', '<', '>', '/', '!', '"', '\'', '(', ')', '*', '?', '^', '%', '$', '#', '@', '~', '\\' }, StringSplitOptions.RemoveEmptyEntries);//todo pn хардкод
 
-            double sum = 0;
+			double sum = 0;
             int i=0;
             foreach (string st in words)
             {

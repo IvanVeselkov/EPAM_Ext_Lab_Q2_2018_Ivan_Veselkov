@@ -23,12 +23,12 @@ namespace _31.classes
                     {
                         if ((j >= midIn - i) && (j <= midIn + i))
                         {
-                            Console.Write('*');
-                        }
+                            Console.Write('*');//todo хардкод
+						}
                         else
                         {
-                            Console.Write(' ');
-                        }
+                            Console.Write(' ');  //todo хардкод
+						}
                     }
                     Console.WriteLine();
                 }

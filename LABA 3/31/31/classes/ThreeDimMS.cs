@@ -23,8 +23,8 @@ namespace _31.classes
                 {
                     for(int k=0;k<N;k++)
                     {
-                        mass[i,j,k] = rnd.Next(-100, 100);
-                    }
+                        mass[i,j,k] = rnd.Next(-100, 100);//todo хардкод
+					}
                 }
             }
         }

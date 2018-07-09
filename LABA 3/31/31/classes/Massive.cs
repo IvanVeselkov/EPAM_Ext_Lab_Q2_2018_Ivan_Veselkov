@@ -18,8 +18,8 @@ namespace _31.classes
             Random rnd = new Random();
             for(int i=0;i<N;i++)
             {
-                mass[i] = rnd.Next(-100, 100);
-            }
+                mass[i] = rnd.Next(-100, 100);//todo pn хардкод
+			}
         }
 
         public void GetMASS()

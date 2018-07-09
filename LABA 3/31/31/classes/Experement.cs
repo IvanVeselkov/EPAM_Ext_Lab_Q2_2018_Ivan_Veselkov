@@ -23,7 +23,7 @@ namespace _31.classes
 
         public void SetLog()
         {
-            using (StreamWriter outputFile = new StreamWriter(@"F:\учеба\epam\LABA 3\31\31\classes\ExperementLog\LOG.txt"))
+            using (StreamWriter outputFile = new StreamWriter(@"F:\учеба\epam\LABA 3\31\31\classes\ExperementLog\LOG.txt"))//todo pn хардкод + упало на этой строке.
             {
                  outputFile.WriteLine(log);
             }
@@ -39,22 +39,22 @@ namespace _31.classes
             strWatch.Start();
             for (int i = 0; i < N; i++)
             {
-                str += "*";
-            }
+                str += "*";//todo pn хардкод
+			}
             strWatch.Stop();
             sbWatch.Start();
             for (int i = 0; i < N; i++)
             {
-                sb.Append("*");
-            }
+                sb.Append("*");//todo pn хардкод
+			}
             sbWatch.Stop();
 
            
-            log = "For H = " + N+" . RunTime String = "+strWatch.Elapsed+" . RunTime StringBuilder = "+sbWatch.Elapsed;
-            SetLog();
+            log = "For H = " + N+" . RunTime String = "+strWatch.Elapsed+" . RunTime StringBuilder = "+sbWatch.Elapsed;//todo pn хардкод
+			SetLog();
 
-            Console.WriteLine("RunTime String " + strWatch.Elapsed);
-            Console.WriteLine("RunTime StringBuilber " +sbWatch.Elapsed);
+            Console.WriteLine("RunTime String " + strWatch.Elapsed);//todo pn хардкод
+			Console.WriteLine("RunTime StringBuilber " +sbWatch.Elapsed);
          
 
         }

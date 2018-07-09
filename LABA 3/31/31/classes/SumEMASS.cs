@@ -18,8 +18,8 @@ namespace _31.classes
             Random rnd = new Random();
             for(int i=0;i<N; i++)
             {
-                mass[i] = rnd.Next(-100, 100);
-            }
+                mass[i] = rnd.Next(-100, 100);//todo pn хардкод
+			}
         }
 
         public void GetMASS()
@@ -34,8 +34,8 @@ namespace _31.classes
 
         public void SumPositElMass()
         {
-            Console.WriteLine("Summa positive elemetns of massive equals ----->");
-            int Summ = 0;
+            Console.WriteLine("Summa positive elemetns of massive equals ----->");//todo pn хардкод
+			int Summ = 0;
             for(int i=0;i<N;i++)
             {
                 if(mass[i]>0)

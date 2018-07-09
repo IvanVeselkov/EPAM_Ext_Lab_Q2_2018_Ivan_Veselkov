@@ -18,8 +18,8 @@ namespace _31.classes
             {
                 for(int j=0;j<i+1;j++)
                 {
-                    Console.Write("*");
-                }
+                    Console.Write("*");//todo хардкод
+				}
                 Console.WriteLine();
             }
         }

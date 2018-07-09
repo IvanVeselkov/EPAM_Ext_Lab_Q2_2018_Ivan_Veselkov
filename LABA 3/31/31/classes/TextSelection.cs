@@ -35,7 +35,7 @@ namespace _31.classes
         public void CheckSelection()
         {
             Console.Write("Inscription parameters: ");
-            if((this.bold==false)&&(this.italic == false) && (this.underline == false))//000
+            if((this.bold==false)&&(this.italic == false) && (this.underline == false))//000 //todo pn а вот это залет)
             {
                 Console.WriteLine("None");
             }
@@ -80,7 +80,7 @@ namespace _31.classes
                 switch (numberSEL)
                 {
                     case 1:
-                        if (this.bold == false)
+                        if (this.bold == false)//todo pn можно одной строкой записать
                             this.bold = true;
                         else
                             this.bold = false;
@@ -104,7 +104,7 @@ namespace _31.classes
                         break;
                 }
 
-            } while (numberSEL != -1);
-        }
+            } while (numberSEL != -1);//todo хардкод
+		}
     }
 }

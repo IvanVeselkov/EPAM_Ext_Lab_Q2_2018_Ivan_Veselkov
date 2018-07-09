@@ -51,7 +51,7 @@ namespace _31.classes
             do
             {
                 Console.Write("Enter length a = ");
-                this.a = double.Parse(Console.ReadLine());
+                this.a = double.Parse(Console.ReadLine());//todo pn не обработал случай, если пользователь введет не число. Исправить здесь и во всех других местах.
                 Console.Write("Enter width b = ");
                 this.b = double.Parse(Console.ReadLine());
             } while (!this.checkEl());
