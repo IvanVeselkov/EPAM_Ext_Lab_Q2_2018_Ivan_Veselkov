@@ -1,0 +1,11 @@
+E:\учеба\epam\LABA 6.1\StringSort\StringSort\bin\Debug\netcoreapp2.0\StringSort.deps.json
+E:\учеба\epam\LABA 6.1\StringSort\StringSort\bin\Debug\netcoreapp2.0\StringSort.runtimeconfig.json
+E:\учеба\epam\LABA 6.1\StringSort\StringSort\bin\Debug\netcoreapp2.0\StringSort.runtimeconfig.dev.json
+E:\учеба\epam\LABA 6.1\StringSort\StringSort\bin\Debug\netcoreapp2.0\StringSort.dll
+E:\учеба\epam\LABA 6.1\StringSort\StringSort\bin\Debug\netcoreapp2.0\StringSort.pdb
+E:\учеба\epam\LABA 6.1\StringSort\StringSort\obj\Debug\netcoreapp2.0\StringSort.csprojResolveAssemblyReference.cache
+E:\учеба\epam\LABA 6.1\StringSort\StringSort\obj\Debug\netcoreapp2.0\StringSort.csproj.CoreCompileInputs.cache
+E:\учеба\epam\LABA 6.1\StringSort\StringSort\obj\Debug\netcoreapp2.0\StringSort.AssemblyInfoInputs.cache
+E:\учеба\epam\LABA 6.1\StringSort\StringSort\obj\Debug\netcoreapp2.0\StringSort.AssemblyInfo.cs
+E:\учеба\epam\LABA 6.1\StringSort\StringSort\obj\Debug\netcoreapp2.0\StringSort.dll
+E:\учеба\epam\LABA 6.1\StringSort\StringSort\obj\Debug\netcoreapp2.0\StringSort.pdb
