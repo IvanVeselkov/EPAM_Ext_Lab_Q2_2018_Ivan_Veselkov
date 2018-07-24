@@ -1,0 +1,7 @@
+E:\учеба\epam\LABA 6.2\Office\Office\bin\Debug\Office.exe.config
+E:\учеба\epam\LABA 6.2\Office\Office\bin\Debug\Office.exe
+E:\учеба\epam\LABA 6.2\Office\Office\bin\Debug\Office.pdb
+E:\учеба\epam\LABA 6.2\Office\Office\obj\Debug\Office.csprojResolveAssemblyReference.cache
+E:\учеба\epam\LABA 6.2\Office\Office\obj\Debug\Office.csproj.CoreCompileInputs.cache
+E:\учеба\epam\LABA 6.2\Office\Office\obj\Debug\Office.exe
+E:\учеба\epam\LABA 6.2\Office\Office\obj\Debug\Office.pdb
