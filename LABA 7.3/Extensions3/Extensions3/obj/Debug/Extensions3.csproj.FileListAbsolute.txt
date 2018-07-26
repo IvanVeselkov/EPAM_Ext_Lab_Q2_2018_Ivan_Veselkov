@@ -1,0 +1,7 @@
+E:\учеба\epam\LABA 7.3\Extensions3\Extensions3\obj\Debug\Extensions3.csprojResolveAssemblyReference.cache
+E:\учеба\epam\LABA 7.3\Extensions3\Extensions3\obj\Debug\Extensions3.csproj.CoreCompileInputs.cache
+E:\учеба\epam\LABA 7.3\Extensions3\Extensions3\bin\Debug\Extensions3.exe.config
+E:\учеба\epam\LABA 7.3\Extensions3\Extensions3\bin\Debug\Extensions3.exe
+E:\учеба\epam\LABA 7.3\Extensions3\Extensions3\bin\Debug\Extensions3.pdb
+E:\учеба\epam\LABA 7.3\Extensions3\Extensions3\obj\Debug\Extensions3.exe
+E:\учеба\epam\LABA 7.3\Extensions3\Extensions3\obj\Debug\Extensions3.pdb
