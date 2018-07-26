@@ -46,12 +46,9 @@ namespace StringSort
 
         static void Main(string[] args)
         {
-            string[] arrStr = new string[3];
-             for(int i=0;i<10;i++)
-             {
-                 arrStr[i] = Console.ReadLine();
-             }
 
+            string[] arrStr = { "asd", "asdf", "cvcvx", "asd", "fds" };
+            
            
 
             Funtion funk1 = new Funtion(SortByLength);
