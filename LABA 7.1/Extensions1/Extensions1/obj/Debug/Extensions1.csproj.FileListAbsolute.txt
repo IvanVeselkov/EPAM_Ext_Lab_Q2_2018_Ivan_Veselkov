@@ -1,0 +1,7 @@
+C:\Users\veselkov.is\source\repos\Extensions1\Extensions1\bin\Debug\Extensions1.exe.config
+C:\Users\veselkov.is\source\repos\Extensions1\Extensions1\bin\Debug\Extensions1.exe
+C:\Users\veselkov.is\source\repos\Extensions1\Extensions1\bin\Debug\Extensions1.pdb
+C:\Users\veselkov.is\source\repos\Extensions1\Extensions1\obj\Debug\Extensions1.csprojResolveAssemblyReference.cache
+C:\Users\veselkov.is\source\repos\Extensions1\Extensions1\obj\Debug\Extensions1.csproj.CoreCompileInputs.cache
+C:\Users\veselkov.is\source\repos\Extensions1\Extensions1\obj\Debug\Extensions1.exe
+C:\Users\veselkov.is\source\repos\Extensions1\Extensions1\obj\Debug\Extensions1.pdb
