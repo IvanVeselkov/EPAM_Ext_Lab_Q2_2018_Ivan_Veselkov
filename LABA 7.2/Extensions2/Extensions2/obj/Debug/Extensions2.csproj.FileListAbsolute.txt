@@ -1,0 +1,7 @@
+E:\учеба\epam\LABA 7.2\Extensions2\Extensions2\bin\Debug\Extensions2.exe.config
+E:\учеба\epam\LABA 7.2\Extensions2\Extensions2\bin\Debug\Extensions2.exe
+E:\учеба\epam\LABA 7.2\Extensions2\Extensions2\bin\Debug\Extensions2.pdb
+E:\учеба\epam\LABA 7.2\Extensions2\Extensions2\obj\Debug\Extensions2.csprojResolveAssemblyReference.cache
+E:\учеба\epam\LABA 7.2\Extensions2\Extensions2\obj\Debug\Extensions2.csproj.CoreCompileInputs.cache
+E:\учеба\epam\LABA 7.2\Extensions2\Extensions2\obj\Debug\Extensions2.exe
+E:\учеба\epam\LABA 7.2\Extensions2\Extensions2\obj\Debug\Extensions2.pdb
