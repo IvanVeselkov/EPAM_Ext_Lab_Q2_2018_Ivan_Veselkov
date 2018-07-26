@@ -1,0 +1,13 @@
+G:\учеба\epam\LABA 5\LabaFive0.2\LabaFive0.2\bin\Debug\LabaFive0.2.exe.config
+G:\учеба\epam\LABA 5\LabaFive0.2\LabaFive0.2\bin\Debug\LabaFive0.2.exe
+G:\учеба\epam\LABA 5\LabaFive0.2\LabaFive0.2\bin\Debug\LabaFive0.2.pdb
+G:\учеба\epam\LABA 5\LabaFive0.2\LabaFive0.2\obj\Debug\LabaFive0.2.csprojAssemblyReference.cache
+G:\учеба\epam\LABA 5\LabaFive0.2\LabaFive0.2\obj\Debug\LabaFive0.2.csproj.CoreCompileInputs.cache
+G:\учеба\epam\LABA 5\LabaFive0.2\LabaFive0.2\obj\Debug\LabaFive0.2.exe
+G:\учеба\epam\LABA 5\LabaFive0.2\LabaFive0.2\obj\Debug\LabaFive0.2.pdb
+E:\учеба\epam\LABA 5\LabaFive0.2\LabaFive0.2\bin\Debug\LabaFive0.2.exe.config
+E:\учеба\epam\LABA 5\LabaFive0.2\LabaFive0.2\bin\Debug\LabaFive0.2.exe
+E:\учеба\epam\LABA 5\LabaFive0.2\LabaFive0.2\bin\Debug\LabaFive0.2.pdb
+E:\учеба\epam\LABA 5\LabaFive0.2\LabaFive0.2\obj\Debug\LabaFive0.2.csproj.CoreCompileInputs.cache
+E:\учеба\epam\LABA 5\LabaFive0.2\LabaFive0.2\obj\Debug\LabaFive0.2.exe
+E:\учеба\epam\LABA 5\LabaFive0.2\LabaFive0.2\obj\Debug\LabaFive0.2.pdb
