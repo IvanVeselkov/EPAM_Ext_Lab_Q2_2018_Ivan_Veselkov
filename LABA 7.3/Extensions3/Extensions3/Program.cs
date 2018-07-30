@@ -172,7 +172,7 @@ namespace Extensions3
                             where number < 0
                             select number).Count();
 
-            Console.WriteLine("Count negative elemntov in array:{0}\nTime Work:{1}\n", aNumber5, sw.ElapsedMilliseconds);
+            Console.WriteLine("Count negative elemntov in array:{0}\nTime Work:{1}\n", aNumber5, sw.ElapsedMilliseconds);//todo pn опять так же финя)
 
         }
     }

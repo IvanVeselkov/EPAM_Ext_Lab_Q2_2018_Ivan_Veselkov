@@ -58,7 +58,7 @@ namespace Extensions2
         static void Main(string[] args)
         {
             string str = "225";
-            Console.WriteLine(str.Compare()) ;
+            Console.WriteLine(str.Compare()) ;//todo pn и как мне успеть посмотреть результат?)
         }
     }
 }
