@@ -1,4 +1,4 @@
---13.1
+--13.1	Написать процедуру, которая возвращает самый крупный заказ для каждого из продавцов за определенный год.
 create  procedure GreatestOrders @year INT
 as 
 DECLARE @max_price int;
@@ -24,14 +24,14 @@ and
 													where
 													YEAR(O1.OrderDate)=@year)
 go													
---13.2
+--13.2	Написать процедуру, которая возвращает заказы в таблице Orders, согласно указанному сроку доставки в днях
 create procedure ShippedOrdersDiff @defDay INT = 35
 as
 select OrderID,OrderDate,ShippedDate,DATEDIFF(d, OrderDate, ShippedDate) as ShippedDelay,@defDay as SpecifiedDelay from Northwind.Northwind.Orders
 where ShippedDate is null or DATEDIFF(d, OrderDate, ShippedDate)>@defDay
 
 go
---13.3
+--13.3	Написать процедуру, которая высвечивает всех подчиненных заданного продавца, как непосредственных, так и подчиненных его подчиненных. 
 CREATE PROCEDURE SubordinationInfo @sell_id int
 as
 DECLARE @str nvarchar(100)= '';
@@ -44,7 +44,7 @@ set @sell_id = (select ReportsTo from Northwind.Northwind.Employees where Employ
 set @str = @str+' '
 end
 go
---13.4
+--13.4  Написать функцию, которая определяет, есть ли у продавца подчиненные. Возвращает тип данных BIT. 
 create function IsBoss (@id INT)
 returns bit
 as
