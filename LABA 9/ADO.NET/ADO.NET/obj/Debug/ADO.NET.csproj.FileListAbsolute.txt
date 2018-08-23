@@ -1,0 +1,7 @@
+F:\учеба\epam\с#\ADO.NET\ADO.NET\bin\Debug\ADO.NET.exe.config
+F:\учеба\epam\с#\ADO.NET\ADO.NET\bin\Debug\ADO.NET.exe
+F:\учеба\epam\с#\ADO.NET\ADO.NET\bin\Debug\ADO.NET.pdb
+F:\учеба\epam\с#\ADO.NET\ADO.NET\obj\Debug\ADO.NET.csprojResolveAssemblyReference.cache
+F:\учеба\epam\с#\ADO.NET\ADO.NET\obj\Debug\ADO.NET.csproj.CoreCompileInputs.cache
+F:\учеба\epam\с#\ADO.NET\ADO.NET\obj\Debug\ADO.NET.exe
+F:\учеба\epam\с#\ADO.NET\ADO.NET\obj\Debug\ADO.NET.pdb
