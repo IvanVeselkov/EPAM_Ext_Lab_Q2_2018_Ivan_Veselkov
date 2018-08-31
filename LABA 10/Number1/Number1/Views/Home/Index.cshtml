@@ -1,0 +1,41 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ListsChanger</title>
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+    <script src="~/Scripts/scripts.js"></script>
+    <script>
+        var fields_list= @Html.Raw(Json.Encode(@ViewBag.Left));
+        var fields_list_second= @Html.Raw(Json.Encode(@ViewBag.Right));
+    </script>
+</head>
+<body>
+    <div style="display:inline-flex">
+        <div>
+            <select name="select" style="height:8rem; width:10rem" class="left" size="6" multiple></select>
+        </div>
+        <div>
+            <div>
+                <button class="all-right-move" >>></button>
+            </div>
+            <div>
+                <button class="right-move" >></button>
+            </div>
+            <div>
+                <button id="left-move" ><</button>
+            </div>
+            <div>
+                <button class="all-left-move"><<</button>
+            </div>
+        </div>
+        <div>
+            <select name="select" class="right" size="6" multiple="multiple" style="height:8rem; width:10rem"></select>
+        </div>
+    </div>
+</body>
+</html>
