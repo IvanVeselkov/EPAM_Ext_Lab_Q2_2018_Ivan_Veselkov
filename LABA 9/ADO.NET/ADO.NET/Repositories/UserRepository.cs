@@ -19,7 +19,7 @@ namespace ADO.NET.Repositories
                 SqlCommand command = new SqlCommand();
                 connect.Open();
                 command.Connection = connect;
-                command.CommandText = sql;
+                command.CommandText = sql; //todo pn можно не выносить в отдельную переменную, а объявлять прямо здесь.
                 SqlParameter IdParam = new SqlParameter("@IdParam", id);
                 command.Parameters.Add(IdParam);
                 SqlDataReader dr = command.ExecuteReader();
@@ -39,8 +39,8 @@ namespace ADO.NET.Repositories
         public override List<UserModel> GetAll()
         {
             List<UserModel> AllUsers = new List<UserModel>();
-            string sql = string.Format("SELECT * FROM {0}s", thisName);
-            using (SqlCommand cmd = new SqlCommand(sql, connect))
+            string sql = string.Format("SELECT * FROM {0}s", thisName);//todo pn ты уверен, что у тебя всегда все таблиц будут заканчиваться на 's'?
+			using (SqlCommand cmd = new SqlCommand(sql, connect))
             {
                 SqlDataReader reader = cmd.ExecuteReader();
                 if (reader.HasRows)

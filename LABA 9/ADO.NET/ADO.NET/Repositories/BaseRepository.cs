@@ -10,12 +10,12 @@ namespace ADO.NET.Repositories
 {
     public abstract class BaseRepository<T> : IBaseRepository<T> where T : class, new()
     { 
-        public SqlConnection connect = null;
+        public SqlConnection connect = null;//todo pn для чего? в using просто объявляй (var connection = new SqlConnection())
         public string thisName = typeof(T).Name;
         public string connectionString;
         public BaseRepository()
         {
-            connectionString = "Data Source=ASUS\\IVANSQLSERVER;Initial Catalog=BDWebTest;Integrated Security=True";
+            connectionString = "Data Source=ASUS\\IVANSQLSERVER;Initial Catalog=BDWebTest;Integrated Security=True";//todo pn строку в конфиг
             connect = new SqlConnection(connectionString);
         }
 

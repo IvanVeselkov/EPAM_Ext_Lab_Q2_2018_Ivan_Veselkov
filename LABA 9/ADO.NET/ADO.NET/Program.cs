@@ -8,7 +8,7 @@ namespace ADO.NET
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)//todo pn не увидел unit тестов для каждого метода DAL
         {
 
         }
