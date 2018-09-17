@@ -1,0 +1,19 @@
+﻿@model Project.Models.ViewRoles
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<table class="table">
+    <tr>
+        <td>Description</td>
+    </tr>
+    @foreach (var item in Model.Roles)
+    {
+        <tr>
+            <td>@item.Desc</td>
+        </tr>
+    }
+</table>

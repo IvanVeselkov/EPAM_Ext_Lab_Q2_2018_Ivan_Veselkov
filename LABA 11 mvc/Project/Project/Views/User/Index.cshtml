@@ -1,0 +1,21 @@
+﻿@model Project.Models.UserViewModel
+
+@{
+    ViewBag.Title = "View";
+}
+
+<h2>View</h2>
+
+<table class="table">
+    <tr>
+        <td>UserId</td>
+        <td>User Name</td>
+    </tr>
+    @foreach (var item in Model.Users)
+    {
+        <tr>
+            <td>@item.UserId</td>
+            <td>@item.UserLogin</td>
+        </tr>
+    }
+</table>

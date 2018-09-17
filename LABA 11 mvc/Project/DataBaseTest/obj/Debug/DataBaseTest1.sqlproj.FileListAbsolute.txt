@@ -1,0 +1,2 @@
+F:\учеба\epam\LABA 11 mvc\Project\DataBaseTest\obj\Debug\DataBaseTest.dll
+F:\учеба\epam\LABA 11 mvc\Project\DataBaseTest\obj\Debug\DataBaseTest.pdb
