@@ -1,0 +1,31 @@
+F:\учеба\epam\с#\ADO.NET\ADO.NET\bin\Debug\ADO.NET.exe.config
+F:\учеба\epam\с#\ADO.NET\ADO.NET\bin\Debug\ADO.NET.exe
+F:\учеба\epam\с#\ADO.NET\ADO.NET\bin\Debug\ADO.NET.pdb
+F:\учеба\epam\с#\ADO.NET\ADO.NET\obj\Debug\ADO.NET.csprojResolveAssemblyReference.cache
+F:\учеба\epam\с#\ADO.NET\ADO.NET\obj\Debug\ADO.NET.csproj.CoreCompileInputs.cache
+F:\учеба\epam\с#\ADO.NET\ADO.NET\obj\Debug\ADO.NET.exe
+F:\учеба\epam\с#\ADO.NET\ADO.NET\obj\Debug\ADO.NET.pdb
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\obj\Debug\ADO.NET.csprojResolveAssemblyReference.cache
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\obj\Debug\ADO.NET.csproj.CoreCompileInputs.cache
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\bin\Debug\ADO.NET.exe.config
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\bin\Debug\ADO.NET.exe
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\bin\Debug\ADO.NET.pdb
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\bin\Debug\AutoMapper.dll
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\bin\Debug\Database1.dll
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\bin\Debug\System.ValueTuple.dll
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\bin\Debug\Database1.pdb
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\bin\Debug\AutoMapper.pdb
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\bin\Debug\AutoMapper.xml
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\bin\Debug\System.ValueTuple.xml
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\obj\Debug\ADO.NET.exe
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\obj\Debug\ADO.NET.pdb
+F:\учеба\epam\finalProject\TestingKnowLedgeVIS\ADO.NET\ADO.NET\bin\Debug\ADO.NET.exe.config
+F:\учеба\epam\finalProject\TestingKnowLedgeVIS\ADO.NET\ADO.NET\bin\Debug\ADO.NET.exe
+F:\учеба\epam\finalProject\TestingKnowLedgeVIS\ADO.NET\ADO.NET\bin\Debug\ADO.NET.pdb
+F:\учеба\epam\finalProject\TestingKnowLedgeVIS\ADO.NET\ADO.NET\bin\Debug\AutoMapper.pdb
+F:\учеба\epam\finalProject\TestingKnowLedgeVIS\ADO.NET\ADO.NET\bin\Debug\AutoMapper.xml
+F:\учеба\epam\finalProject\TestingKnowLedgeVIS\ADO.NET\ADO.NET\bin\Debug\System.ValueTuple.xml
+F:\учеба\epam\finalProject\TestingKnowLedgeVIS\ADO.NET\ADO.NET\obj\Debug\ADO.NET.csprojResolveAssemblyReference.cache
+F:\учеба\epam\finalProject\TestingKnowLedgeVIS\ADO.NET\ADO.NET\obj\Debug\ADO.NET.csproj.CoreCompileInputs.cache
+F:\учеба\epam\finalProject\TestingKnowLedgeVIS\ADO.NET\ADO.NET\obj\Debug\ADO.NET.exe
+F:\учеба\epam\finalProject\TestingKnowLedgeVIS\ADO.NET\ADO.NET\obj\Debug\ADO.NET.pdb

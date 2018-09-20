@@ -1,0 +1,14 @@
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\bin\Release\ADO.NET.exe.config
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\bin\Release\ADO.NET.exe
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\bin\Release\ADO.NET.pdb
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\bin\Release\AutoMapper.dll
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\bin\Release\Database1.dll
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\bin\Release\System.ValueTuple.dll
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\bin\Release\Database1.pdb
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\bin\Release\AutoMapper.pdb
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\bin\Release\AutoMapper.xml
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\bin\Release\System.ValueTuple.xml
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\obj\Release\ADO.NET.csprojResolveAssemblyReference.cache
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\obj\Release\ADO.NET.csproj.CoreCompileInputs.cache
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\obj\Release\ADO.NET.exe
+F:\учеба\epam\LABA 9\ADO.NET\ADO.NET\obj\Release\ADO.NET.pdb
