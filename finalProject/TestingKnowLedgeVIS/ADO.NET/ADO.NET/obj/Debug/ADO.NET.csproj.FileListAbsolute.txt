@@ -29,3 +29,7 @@ F:\учеба\epam\finalProject\TestingKnowLedgeVIS\ADO.NET\ADO.NET\obj\Debug\AD
 F:\учеба\epam\finalProject\TestingKnowLedgeVIS\ADO.NET\ADO.NET\obj\Debug\ADO.NET.csproj.CoreCompileInputs.cache
 F:\учеба\epam\finalProject\TestingKnowLedgeVIS\ADO.NET\ADO.NET\obj\Debug\ADO.NET.exe
 F:\учеба\epam\finalProject\TestingKnowLedgeVIS\ADO.NET\ADO.NET\obj\Debug\ADO.NET.pdb
+F:\учеба\epam\finalProject\TestingKnowLedgeVIS\ADO.NET\ADO.NET\bin\Debug\Ninject.dll
+F:\учеба\epam\finalProject\TestingKnowLedgeVIS\ADO.NET\ADO.NET\bin\Debug\Ninject.xml
+F:\учеба\epam\finalProject\TestingKnowLedgeVIS\ADO.NET\ADO.NET\bin\Debug\StyleCop.dll
+F:\учеба\epam\finalProject\TestingKnowLedgeVIS\ADO.NET\ADO.NET\bin\Debug\StyleCop.xml

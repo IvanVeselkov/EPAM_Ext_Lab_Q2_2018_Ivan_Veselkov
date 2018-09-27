@@ -57,3 +57,7 @@ F:\учеба\epam\finalProject\TestingKnowLedgeVIS\TestingKnowLedgeVIS\bin\ru\S
 F:\учеба\epam\finalProject\TestingKnowLedgeVIS\TestingKnowLedgeVIS\obj\Debug\TestingKnowLedgeVIS.csprojResolveAssemblyReference.cache
 F:\учеба\epam\finalProject\TestingKnowLedgeVIS\TestingKnowLedgeVIS\obj\Debug\TestingKnowLedgeVIS.dll
 F:\учеба\epam\finalProject\TestingKnowLedgeVIS\TestingKnowLedgeVIS\obj\Debug\TestingKnowLedgeVIS.pdb
+F:\учеба\epam\finalProject\TestingKnowLedgeVIS\TestingKnowLedgeVIS\bin\Ninject.dll
+F:\учеба\epam\finalProject\TestingKnowLedgeVIS\TestingKnowLedgeVIS\bin\Ninject.xml
+F:\учеба\epam\finalProject\TestingKnowLedgeVIS\TestingKnowLedgeVIS\bin\StyleCop.dll
+F:\учеба\epam\finalProject\TestingKnowLedgeVIS\TestingKnowLedgeVIS\bin\StyleCop.xml

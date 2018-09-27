@@ -8,11 +8,9 @@ namespace TestingKnowLedgeVIS.Models
 {
     public class RegisterModel
     {
-        [Required]
-        public string Email { get; set; }
 
         [Required]
-        public string Name { get; set; }
+        public string Login { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
@@ -22,6 +20,5 @@ namespace TestingKnowLedgeVIS.Models
         [DataType(DataType.Password)]
         [Compare("Password", ErrorMessage = "Пароли не совпадают")]
         public string ConfirmPassword { get; set; }
-
     }
 }

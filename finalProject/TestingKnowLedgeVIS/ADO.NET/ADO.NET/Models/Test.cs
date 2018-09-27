@@ -10,7 +10,6 @@ namespace ADO.NET.Models
         public string Description;
         public int ID;
         public string Subject;
-        public string Complexity;
-        public List<Quest> Quests;
+        //public int? Complexity;
     }
 }

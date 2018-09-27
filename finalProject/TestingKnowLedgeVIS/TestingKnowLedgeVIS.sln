@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO.NET", "ADO.NET\ADO.NET\
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TestingBase", "Database1\TestingBase.sqlproj", "{36C17340-5825-463C-A83B-2D70EA92184E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADOTests", "ADOTests\ADOTests.csproj", "{7610251E-CA72-4AD4-AA7A-E01627BE9D5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{36C17340-5825-463C-A83B-2D70EA92184E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36C17340-5825-463C-A83B-2D70EA92184E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{36C17340-5825-463C-A83B-2D70EA92184E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7610251E-CA72-4AD4-AA7A-E01627BE9D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7610251E-CA72-4AD4-AA7A-E01627BE9D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7610251E-CA72-4AD4-AA7A-E01627BE9D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7610251E-CA72-4AD4-AA7A-E01627BE9D5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

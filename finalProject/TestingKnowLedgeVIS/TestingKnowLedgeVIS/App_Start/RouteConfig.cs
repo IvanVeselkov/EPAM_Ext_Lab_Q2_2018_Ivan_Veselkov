@@ -19,7 +19,7 @@ namespace TestingKnowLedgeVIS
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
             routes.MapRoute(
-                name: "Default",
+                name: "User",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "User", action = "Index", id = UrlParameter.Optional }
             );
@@ -48,6 +48,16 @@ namespace TestingKnowLedgeVIS
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Role", action = "DeleteRole", id = UrlParameter.Optional }
             );
+            routes.MapRoute(
+                name: "Login",
+                url: "{controller}/{action}/{id}",
+                defaults: new {Controller = "Account" , Action = "LogIn",id = UrlParameter.Optional }
+                );
+            routes.MapRoute(
+                name: "Register",
+                url: "{controller}/{action}/{id}",
+                defaults: new { Controller = "Account", Action = "Register", id = UrlParameter.Optional }
+                );
 
         }
     }

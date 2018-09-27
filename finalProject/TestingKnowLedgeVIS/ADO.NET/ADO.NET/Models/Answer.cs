@@ -7,6 +7,7 @@ namespace ADO.NET.Models
 {
     public class Answer
     {
+ 
         public string Description;
         public int Correct;
     }

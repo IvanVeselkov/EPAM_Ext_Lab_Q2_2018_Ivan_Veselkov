@@ -9,7 +9,7 @@ using System.Data.SqlClient;
 
 namespace ADO.NET.Services
 {
-    class UserService : BaseService<UserModel>
+    public class UserService : BaseService<UserModel>
     {
         private UserRepository userRepo;
 

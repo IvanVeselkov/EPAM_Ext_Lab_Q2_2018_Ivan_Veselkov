@@ -14,7 +14,7 @@ namespace TestingKnowLedgeVIS.Controllers
     {
         UserRepository Repo = new UserRepository();
         // GET: User
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "admin,user")]
         public ActionResult Index()
         {
             UserViewModel userViewModel = new UserViewModel();
@@ -26,7 +26,7 @@ namespace TestingKnowLedgeVIS.Controllers
             return View(userViewModel);
         }
 
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "admin,user")]
         public ActionResult EditUser(UserModel user)
         {
             UserEditModel usModel = new UserEditModel();
@@ -37,7 +37,7 @@ namespace TestingKnowLedgeVIS.Controllers
             return View(usModel);
         }
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "admin,user")]
         public ActionResult EditUser(UserEditModel model)
         {
             return RedirectToAction("Index");
@@ -53,7 +53,7 @@ namespace TestingKnowLedgeVIS.Controllers
             return View(mapper.Map<UserModel>(user));
         }
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "admin,user")]
         public ActionResult DeleteUser(int id)
         {
             Repo.Delete(id);

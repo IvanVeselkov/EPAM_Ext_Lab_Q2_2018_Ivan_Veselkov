@@ -10,6 +10,8 @@ namespace ADO.NET.Repositories
     {
         T Get(int id);
 
+        T Get(string login);
+
         List<T> GetAll();
 
         bool Save(T entity);
