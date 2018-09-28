@@ -8,6 +8,8 @@ namespace TestingKnowLedgeVIS.Models
 {
     public class StartTestQuestionViewModel
     {
-        public List<Quest> Question = new List<Quest>();
+        public List<QuestViewModel> Question { get; set; } = new List<QuestViewModel>();
+        public List<AnswerViewModel> Answer { get; set; } = new List<AnswerViewModel>();
+        public QuestPageInfo QuestionPageInfo { get; set; }
     }
 }

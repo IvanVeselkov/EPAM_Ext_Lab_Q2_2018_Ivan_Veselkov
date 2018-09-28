@@ -163,15 +163,19 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\AnswerViewModel.cs" />
     <Compile Include="Models\EditRoleView.cs" />
     <Compile Include="Models\IndexTestViewModel.cs" />
     <Compile Include="Models\IndexViewModel.cs" />
     <Compile Include="Models\LoginModel.cs" />
     <Compile Include="Models\PageInfo.cs" />
+    <Compile Include="Models\QuestPageInfo.cs" />
+    <Compile Include="Models\QuestViewModel.cs" />
     <Compile Include="Models\RegisterModel.cs" />
     <Compile Include="Models\RoleEditModel.cs" />
     <Compile Include="Models\StartTestQuestionViewModel.cs" />
     <Compile Include="Models\TestResultViewModel.cs" />
+    <Compile Include="Models\TestViewModel.cs" />
     <Compile Include="Models\UserEditModel.cs" />
     <Compile Include="Models\UserViewModel.cs" />
     <Compile Include="Models\ViewRoles.cs" />

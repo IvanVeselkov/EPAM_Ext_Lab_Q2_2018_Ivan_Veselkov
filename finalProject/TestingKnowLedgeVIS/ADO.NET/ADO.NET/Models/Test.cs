@@ -7,9 +7,8 @@ namespace ADO.NET.Models
 {
     public class Test
     {
-        public string Description;
-        public int ID;
-        public string Subject;
-        //public int? Complexity;
+        public string Description { get; set; }
+        public int ID { get; set; }
+        public string Subject { get; set; }
     }
 }

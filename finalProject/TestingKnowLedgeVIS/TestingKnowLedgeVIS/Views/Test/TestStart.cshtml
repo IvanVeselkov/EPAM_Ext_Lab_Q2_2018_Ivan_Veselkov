@@ -1,8 +1,39 @@
 ﻿@model TestingKnowLedgeVIS.Models.StartTestQuestionViewModel
-
+@using TestingKnowLedgeVIS.Models
 @{
-    ViewBag.Title = "TestStart";
+    ViewBag.Title = "Home Page";
 }
+@{
+    var url = Url.Action("Завершить тест", "TestResult", new { testId = Model.QuestionPageInfo.TestId });
 
-<h2>TestStart</h2>
+}
+<script src="~/Scripts/Timer.js"></script>
+<div id="tick"></div>
+@using (Html.BeginForm("CheckAnswer", "Test", new { testid = Model.QuestionPageInfo.TestId, questionId = Model.QuestionPageInfo.QuestionId }))
+{
+    foreach (var iten in Model.Question)
+    {
+    <p><b>@iten.Description</b></p>
+
+        foreach (var item in Model.Answer)
+        {
+            
+            <p><input name=@Model.QuestionPageInfo.QuestionId type="checkbox" value='@item' checked> @item.Description</p>
+            
+
+        }
+    }
+
+
+
+   
+
+    <p><input class="btn btn-primary" type="submit" value="Выбрать"></p>
+}
+<div>
+    <button class=" btn btn-success">@Html.ActionLink("Завершить тест", "TestResult", new { testId = Model.QuestionPageInfo.TestId })</button>
+</div>
+<br />
+
+
 

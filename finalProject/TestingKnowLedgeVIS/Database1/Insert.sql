@@ -7,6 +7,7 @@ insert into Users(ID,UserLogin,UserPassWD,UserRole) values(3,'Duck','456',2);
 insert into Users(ID,UserLogin,UserPassWD,UserRole) values(4,'Vick','234',2);
 insert into Users(ID,UserLogin,UserPassWD,UserRole) values(5,'Ben','It',2);
 insert into Users(ID,UserLogin,UserPassWD,UserRole) values(6,'Yes','No',2);
+insert into Users(ID,UserLogin,UserPassWD,UserRole) values(7,'admin','admin',1);
 
 insert into Tests(ID,TestDescription,TestSubject,TestСomplexity) values(1,'What is snow?','nature',1);
 insert into Tests(ID,TestDescription,TestSubject,TestСomplexity) values(2,'We are Human','nature',1);

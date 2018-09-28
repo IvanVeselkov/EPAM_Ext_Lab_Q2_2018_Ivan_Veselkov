@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ADO.NET.Repositories;
 using ADO.NET.Models;
+using System.Collections.Generic;
 
 namespace ADOTests
 {
@@ -39,6 +40,22 @@ namespace ADOTests
             userModel.UserRole = role;
 
             Assert.IsTrue(US.Save(userModel));
+        }
+        [TestMethod]
+        public void GetTest()
+        {
+            Test test = new Test();
+            TestRepository testRepository = new TestRepository();
+            test = testRepository.Get(1);
+            Assert.IsNotNull(test);
+        }
+        [TestMethod]
+        public void GetAllTest()
+        {
+            List<Test> testTest = new List<Test>();
+            TestRepository testRepository = new TestRepository();
+            testTest = testRepository.GetAll();
+            Assert.IsNotNull(testTest);
         }
     }
 }

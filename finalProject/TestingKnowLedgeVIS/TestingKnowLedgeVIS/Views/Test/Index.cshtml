@@ -1,4 +1,5 @@
 ﻿@model TestingKnowLedgeVIS.Models.IndexViewModel
+@using TestingKnowLedgeVIS.Models
 
 @{
     ViewBag.Title = "Index";
@@ -14,8 +15,8 @@
     @foreach (var item in Model.Tests)
     {
         <tr>
-            <td>@item.TestId</td>
-            <td>@item.TestName</td>
+            <td>@item.ID</td>
+            <td>@Html.ActionLink(item.Description, "PreStartTest", new { testid = item.ID})</td>
         </tr>
     }
 </table>

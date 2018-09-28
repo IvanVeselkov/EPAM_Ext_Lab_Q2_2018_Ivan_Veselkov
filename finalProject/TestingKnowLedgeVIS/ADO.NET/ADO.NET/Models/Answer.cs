@@ -7,8 +7,9 @@ namespace ADO.NET.Models
 {
     public class Answer
     {
- 
-        public string Description;
-        public int Correct;
+        public int ID { get; set; }
+        public string Description { get; set; }
+        public int Correct { get; set; }
+        public int QuestID { get; set; }
     }
 }
